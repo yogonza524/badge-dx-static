@@ -24,3 +24,5 @@ jobs:
       run: ls
     - name: Repo name
       run: basename `git rev-parse --show-toplevel`
+    - name: Show env
+      run: env
