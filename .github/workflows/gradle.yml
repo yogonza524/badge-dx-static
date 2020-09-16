@@ -22,3 +22,5 @@ jobs:
         java-version: 1.8
     - name: Show files
       run: ls
+    - name: Repo name
+      run: basename `git rev-parse --show-toplevel`
